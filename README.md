@@ -18,6 +18,15 @@ fully emulate the GLiMR API.
   ruby app.rb
 ```
 
+## With docker-compose
+
+```bash
+  git clone git@github.com:ministryofjustice/glimr-emulator.git
+  cd glimr-emulator
+  docker-compose build
+  docker-compose up
+```
+
 ## Testing
 
 Due to the simplicity and intended use of the app, there are currently
