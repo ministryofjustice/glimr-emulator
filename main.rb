@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'ffaker'
-require 'JSON'
+require 'json'
 
 post '/Live_API/api/tdsapi/registernewcase' do
   content_type :json
