@@ -4,7 +4,7 @@ GEM
     ffaker (2.9.0)
     mustermann (1.0.2)
     puma (3.11.4)
-    rack (2.0.6)
+    rack (2.2.1)
     rack-protection (2.0.3)
       rack
     sinatra (2.0.3)
