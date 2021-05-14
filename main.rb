@@ -3,6 +3,7 @@ require 'ffaker'
 require 'json'
 
 post '/Live_API/api/tdsapi/registernewcase' do
+  puts "GLIMR EMULATOR __ REGISTER NEW CASE"
   content_type :json
   {
     jurisdictionId: 8,
@@ -12,6 +13,3 @@ post '/Live_API/api/tdsapi/registernewcase' do
     confirmationCode: "ABC123"
   }.to_json
 end
-
-
-
